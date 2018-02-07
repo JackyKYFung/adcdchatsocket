@@ -1,5 +1,5 @@
 const server = require("http").Server();
-const port = 3000;
+const port = 10000;
 
 var io = require('socket.io')(server);
 var names = [];
